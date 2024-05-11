@@ -1,20 +1,65 @@
 *{
   margin: 0;
   padding: 0;
-}
+  }
 
 body{
-  background-color: aliceblue;
+  background-color: goldenrod;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+margin-top: 50px;
+color: #016f32;
+font-size: 2.5em;
+  
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin:50px auto 10px;
+}
+
+button{
+  width:  150px;
+  color: goldenrod;
+  background-color: #016f32;
+  padding:5px 0;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 #sketch-area{
   display: flex;
   flex-wrap: wrap;
-  margin: 100px auto;
+  margin: auto;
   background-color: white;
 
 }
 
  .cell{
    border: 1px solid whitesmoke;
+ }
+ 
+ #grid-size{
+   text-align: center;
+   margin: 10px;
+   font-weight: bold;
+   color:#016f32; 
+ }
+ 
+ footer{
+   text-align: center;
+   margin-top: 50px;
+   font-style: italic;
+   color: brown;
+ }
+ 
+ footer a {
+   text-decoration: none;
+   color: inherit;
  }
